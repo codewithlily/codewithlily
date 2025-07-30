@@ -48,11 +48,19 @@ header {
 }
 
 .intro p {
+<<<<<<< HEAD
   font-size: 36px;
   font-weight: bold;
   color: black;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+=======
+  font-size: xx-large;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+>>>>>>> a2f76f48e99d1476fad8fb2ed7714ed03d8fa566
 }
 
 .social-icons {
@@ -108,12 +116,15 @@ header {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s;
+<<<<<<< HEAD
   font-size: 24px;
   font-weight: bold;
 
   font-family: "Tagesschrift", system-ui;
   font-weight: 400;
   font-style: normal;
+=======
+>>>>>>> a2f76f48e99d1476fad8fb2ed7714ed03d8fa566
 }
 
 .nav-links li a:hover {
@@ -136,6 +147,7 @@ header {
   animation: fadeIn 1s ease-in;
 }
 
+<<<<<<< HEAD
 .intro h1,
 .intro p {
   animation: fadeIn 1s ease-in;
@@ -328,6 +340,16 @@ header {
 .projects {
   padding: 60px 20px;
   background: linear-gradient(110deg, #00c7b7, #f9f9f9);
+=======
+.intro h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.projects {
+  padding: 60px 20px;
+  background: #00c7b7;
+>>>>>>> a2f76f48e99d1476fad8fb2ed7714ed03d8fa566
 }
 
 .projects h2 {
@@ -351,12 +373,20 @@ header {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s;
   cursor: pointer;
+<<<<<<< HEAD
   box-shadow: 0 0 10px black;
   animation: popscale 4s ease 1s infinite alternate both;
 }
 
 .project-card:hover {
   transform: scale(1.03);
+=======
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+>>>>>>> a2f76f48e99d1476fad8fb2ed7714ed03d8fa566
 }
 
 .project-card img {
@@ -451,6 +481,7 @@ footer {
     color: #00c7b7;
     background-color: #0a0a0a;
   }
+<<<<<<< HEAD
 
   .intro h1 {
     font-size: 36px;
@@ -509,6 +540,36 @@ footer {
 .project-card a:hover {
   background: linear-gradient(346deg, #00c7b7, #f9f9f9);
   color: black;
+=======
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card a {
+  text-decoration: none;
+  background: #009a8a;
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-size: large;
+  font-weight: 700;
+}
+
+.project-card a:hover {
+  background-color: #056b61;
+>>>>>>> a2f76f48e99d1476fad8fb2ed7714ed03d8fa566
 }
 
 html,
