@@ -333,6 +333,12 @@ header {
 .projects h2 {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold; 
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Tagesschrift", system-ui;
+  font-style: normal;
 }
 
 .project-grid {
@@ -371,6 +377,12 @@ header {
   background: #f0f0f0;
   text-align: center;
   font-size: x-large;
+  font-weight: bold;
+  color: black;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact form {
@@ -387,21 +399,37 @@ header {
   font-size: large;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .contact button {
-  background: #00c7b7;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background 0.3s;
-  font-size: x-large;
+  text-decoration: none;
+  background: linear-gradient(166deg, #00c7b7, #f9f9f9);
+  box-shadow: 4px 4px 6px black;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  margin: 1em;
+  padding: 1.5em;
+  color: black;
+  font-family: "Tagesschrift", system-ui;
+  font-weight:500;
+  font-style: normal;
+  animation: popscale 4s ease 1s infinite alternate both;
+  transition: all 0.3s ease;
+  font-size: 20px;
 }
 
 .contact button:hover {
-  background: #009a8a;
+  background: linear-gradient(346deg, #00c7b7, #f9f9f9);
+  letter-spacing: 5px;
+}
+
+.contact button:active {
+  transform: rotate("5deg");
+  -webkit-transform: rotate(5deg);
+  transition: all 0.3s ease;
+  letter-spacing: 2px;
+  animation: 0;
 }
 
 footer {
